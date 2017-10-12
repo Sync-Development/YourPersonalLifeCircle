@@ -17,8 +17,8 @@
 }
 
 .navbar-default {
-    background-color: #f8f8f8;
-    border-color: #e7e7e7;
+    background-color: transparent;
+    border-color: transparent;
 }
 
 .scrollup{
@@ -199,9 +199,9 @@ body {
 
 .navbar-toggle {
   position: relative;
-  float: left;
+  float: right;
   padding: 7px 9px;
-  margin-top: -54px;
+  margin-top: 11px;
   margin-left: 5%;
   margin-bottom: 3%;
   background-color: transparent;
@@ -214,7 +214,7 @@ body {
     position: absolute;
     height: 4px;
     width: 90%;
-    background: #114b8b;
+    background: white;
     border-radius: 10px;
     opacity: 1;
     left: 0;
