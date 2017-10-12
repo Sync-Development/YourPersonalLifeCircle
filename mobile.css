@@ -1,0 +1,335 @@
+
+.logo{
+    width: 100%;
+    height: 200px;
+    margin: 0 auto; 
+    align-content: center;
+    display:none;
+}
+
+.logomobile{
+    display:flex;
+     width: 16%;
+    height: 57px;
+    margin: 0 auto; 
+    align-content: center;
+    margin-top: 5px;
+}
+
+.navbar-default {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
+
+.scrollup{
+    width: 80%;
+    margin-right: -33%;
+    margin-bottom: -35px;
+}
+#return-to-top {
+    position: fixed;
+    bottom: 16%;
+    right: 20px;
+   
+    width: 15%;
+    height: 35px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+
+#myBtn {
+      display: none;
+    position: fixed;
+    bottom: 8%;
+    right: 1%;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color:  transparent;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#myBtn:hover {
+  background-color: deepskyblue;
+}
+
+iframe{
+ max-width: 80%;
+height: 200px;
+    margin-left: 10%;
+    margin-top: -15%;
+    
+}
+
+#container{
+    margin-left: 0%;
+}
+
+
+#wrapper-3{
+     width: 70%;
+    margin: 0 auto;
+
+}
+
+.socialmedia1{
+    display:none;
+}
+
+.socialmedia{
+    display:flex;
+}
+
+footer { background-color:#4431a4; max-height:320px; font-family: 'Open Sans', sans-serif; display:none; }
+.footer-col { margin-top:13px; }
+.logofooter { margin-bottom:10px; font-size:25px; color:#fff; font-weight:700; display:none;}
+
+.footer-col p { color:#fff; font-size:12px; font-family: 'Open Sans', sans-serif; margin-bottom:15px; display:none;}
+.footer-col p i { width:20px; color:#999;}
+
+.footer-ul { list-style-type:none;  padding-left:0; margin-left:2px;}
+.footer-ul li { line-height:29px; font-size:12px; display:none;}
+.footer-ul li a { color:#a0a3a4; transition: color 0.2s linear 0s, background 0.2s linear 0s; }
+.footer-ul i { margin-right:10px;}
+.footer-ul li a:hover {transition: color 0.2s linear 0s, background 0.2s linear 0s; color:#ff670f; }
+
+ .copyright { max-height:80px; background-color:#68a6da;     position: absolute;
+    width: 100%;
+    margin-bottom: 0px;     overflow: hidden;}
+.copyright3 { max-height:80px; background-color:#68a6da;     position: absolute;
+    width: 100%;
+    margin-bottom: 0px; }
+ .copyright p { text-align:left; color:#FFF; padding:7px 0; margin-bottom:0;}
+ .heading7 { font-size:21px; font-weight:700; color:#d9d6d6; margin-bottom:22px; display:none;}
+ .post p { font-size:12px; color:#FFF; line-height:20px;}
+ .post p span { display:block; color:#8f8f8f;}
+ .bottom_ul { list-style-type:none; float:right; margin-bottom:0;}
+ .bottom_ul li { float:left; line-height:40px; display:none;}
+ .bottom_ul li:after { content:"/"; color:#FFF; margin-right:8px; margin-left:8px;}
+ .bottom_ul li a { color:#FFF;  font-size:12px; display: none;}
+.social-icon {
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 7px;
+    border-radius: 50%;
+}
+.footer-social1{
+    display:flex;
+}
+.footer-social{
+    display:none;
+}
+ .footer-social li{
+     float:left;
+ }
+ .linked-in{
+     background-color:#007bb6;
+ }
+ .facebook{
+     background-color:#3b5998;
+ }
+ .twitter{
+     background-color:#1da1f2;
+ }
+ .google{
+     background-color:#f63e28;
+ }
+
+.active2 {
+  transition: 0.4s ease;
+  color: #124b8c;
+  font-size: 20px;
+  text-decoration: none;
+  border-bottom: 4px Solid white;
+  padding: 20px 0;
+  margin: 0 20px;
+
+}
+
+.active2:hover {
+border-bottom: 4px solid #68a6da;
+  padding: 4px 0; 
+    
+}
+
+.navbar-static-top {
+    z-index: 1000;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: white;
+}
+
+.navbar-toggle {
+  position: relative;
+  float: left;
+  padding: 7px 9px;
+  margin-top: -54px;
+  margin-left: 5%;
+  margin-bottom: 3%;
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid transparent;
+  border-radius: 0px;
+}
+#nav-icon1 span, #nav-icon3 span, #nav-icon4 span {
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 90%;
+    background: #114b8b;
+    border-radius: 10px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: -0.75s ease-in-out;
+    transition: .25s ease-in-out;
+    margin-top: -92%;
+}
+
+.navbar {
+    position: relative;
+    min-height: 70px;
+    margin-bottom: 0px;
+    border: 0px solid transparent;
+}
+
+.navbar-brand {
+    float: left;
+    max-height: 10px;
+    padding: 3px 10px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #124b8c;
+}
+
+.flag2{
+    display: flex;
+    width: 11%;
+    position: absolute;
+    margin-left: 86%;
+    margin-top: 12px;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+    margin-top: 0%;
+}
+
+.bg-img1 {
+    /* The image used */
+    background-image: url("../images/Sync_Development_Alphen_ad_Rijn_3_in_1_pakket_banner.jpg");
+
+    /* Set a specific height */
+    min-height: 200px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-img3 {
+    /* The image used */
+    background-image: url("../images/Sync_Development_Alphen_ad_Rijn_Laptop_mobiel_computer.jpg");
+
+    /* Set a specific height */
+    min-height: 250px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}    
+
+.bg-img4 {
+    /* The image used */
+    background-image: url("../images/Sync_Development_Alphen_ad_Rijn_Seo.jpg");
+
+    /* Set a specific height */
+    min-height: 250px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+
+.bg-img5 {
+    /* The image used */
+    background-image: url("../images/Sync_Development_Alphen_ad_Rijn_Werkwijze.jpg");
+
+    /* Set a specific height */
+    min-height: 200px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+
+
+
+html,body
+{
+min-height:100%;
+}
+
+.row2 {
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-left: -8%;
+}
