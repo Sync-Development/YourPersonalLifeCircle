@@ -921,6 +921,7 @@ p2{
 body h1{
     color: #FFFFFF;
     font-size: 18px;
+    margin: 0.67em; 
 }
 
 body h2{
