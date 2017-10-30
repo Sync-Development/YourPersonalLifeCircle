@@ -39,7 +39,8 @@
             <li><span>Image 05</span><div><h3><img src="images/Sync_Development_Alphen_ad_Rijn_Logo.png"></h3></div></li>
             <li><span>Image 06</span><div><h3><img src="images/Sync_Development_Alphen_ad_Rijn_Logo.png"></h3></div></li>
         </ul>
-        <div class="container">
+       
+       <div class="container">
         <div class="navbar navbar-default navbar-static-top">
 <div class="container-fluid">
 <div class="navbar-header">
@@ -83,32 +84,53 @@ $(document).ready(function(){
 </div>
 </div>
 </div>
+           
+<div id="contact" class="container-fluid bg-grey">
+  <h1 class="text-center">Contact | Your personal life circle</h1>
+  <div class="row">
+    <div class="col-sm-6">
+      <h1>Contact gegevens</h1>
+      <p><span class="glyphicon glyphicon-map-marker" style="color: red;"></span>Bodegraven</p>
+      <p><span class="glyphicon glyphicon-phone" style="color: #6da6ba;"></span> 06-123456789</p>
+      <p><span class="glyphicon glyphicon-envelope" style="color: #4431a7;"></span>Info@yourpersonallifecircle.nl</p>
+      <p>KvK-nummer: -</p>
+    </div>
+    
+      
 
-
-       
-<div class="form-control">            
-<form method="POST" action="mail_handler.php">
+    
+<?php
+if(isset($_GET['msg'])) echo $_GET['msg'];
+?>
+      <form method="POST" action="mail_handler.php">
       <div class="col-sm-7 slideanim">
       <div class="row">
-        <div class="col-md-4 form-group">
+        <div class="col-sm-6 form-group">
           <input class="form-control" id="name" name="name" placeholder="Naam" type="text" required>
           </div>
-          <div class="col-md-4 form-group">
+          <div class="col-sm-6 form-group">
+          <input class="form-control" id="phone" name="phone" placeholder="Telefoonnummer" type="text" required>
+        </div> 
+          <div class="col-sm-12 form-group">
           <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
         </div>
       </div>
-      <div>
-      <textarea class="col-md-8 form-control" id="msg" name="msg" placeholder="Bericht" rows="9"></textarea>
-          </div>
+      <textarea class="form-control" id="msg" name="msg" placeholder="Bericht" rows="5"></textarea><br>
       <div class="row">
-        <div class="col-md-8 form-group">
+        <div class="col-sm-12 form-group">
          <button class="btn btn-default pull-right" id="submit" name="submit" type="submit">Verstuur</button>
         </div>
       </div>
     </div>
   </div>
+</div> 
+        </div>
+    </form> 
+           
+           
+    
 </div>
             
-</form>        
+        
     </body>
         </html>
