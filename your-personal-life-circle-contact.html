@@ -84,6 +84,31 @@ $(document).ready(function(){
 </div>
 </div>
 
+
+       
+<div class="form-control">            
+<form method="POST" action="mail_handler.php">
+      <div class="col-sm-7 slideanim">
+      <div class="row">
+        <div class="col-md-4 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Naam" type="text" required>
+          </div>
+          <div class="col-md-4 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <div>
+      <textarea class="col-md-8 form-control" id="msg" name="msg" placeholder="Bericht" rows="9"></textarea>
+          </div>
+      <div class="row">
+        <div class="col-md-8 form-group">
+         <button class="btn btn-default pull-right" id="submit" name="submit" type="submit">Verstuur</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+            
+</form>        
     </body>
         </html>
