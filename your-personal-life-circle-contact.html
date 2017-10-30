@@ -80,15 +80,26 @@ $(document).ready(function(){
            
  <h1 class="text-center">Contact | Your personal life circle</h1>          
 <div id="contact" class="container-fluid bg-grey">
-  
+<br>  
 
   <div class="row">
     <div class="col-sm-6">
-      <h1>Contact gegevens</h1>
-      <p><span class="glyphicon glyphicon-map-marker" style="color: #cb8d3d;"></span>Bodegraven</p> <br> 
-      <p><span class="glyphicon glyphicon-phone" style="color: #cb8d3d;"></span> 06-123456789</p> <br>
-      <p><span class="glyphicon glyphicon-envelope" style="color: #cb8d3d;"></span>Info@YourPersonaLifeCircle.nl</p><br> 
+    <div id="titelcontact">
+      <p><span class="glyphicon glyphicon-map-marker" style="color: #cb8d3d;"></span>Bodegraven</p> 
+          </div>
+    <br> <br> 
+          <div id="titelcontact2">
+      <p><span class="glyphicon glyphicon-phone" style="color: #cb8d3d;"></span> 06-123456789</p> 
+          </div>
+    <br><br> 
+      <div id="titelcontact3">
+      <p><span class="glyphicon glyphicon-envelope" style="color: #cb8d3d;"></span>Info@YourPersonaLifeCircle.nl</p>
+            </div>
+    <br> <br> 
+        <div id="titelcontact4"> 
+            
       <p>KvK-nummer: -</p> 
+    </div>
     </div>
     
       
@@ -119,9 +130,59 @@ if(isset($_GET['msg'])) echo $_GET['msg'];
         </div>
     </form> 
            
-           
-    
 </div>
+    
+<footer>
+  
+<div class="copyright3">
+<div class="copyright">
+  <div class="container"  >
+    <div class="col-md-6">
+       
+  
+    <p>© 2017 - Yourpersonallifecirkel </p>
+     <ul class="footer-social1">
+          <li> <a target="_blank" href="https://www.linkedin.com/company/25033050/"><i class="fa fa-linkedin social-icon linked-in" aria-hidden="true"></i></li>
+          <li> <a target="_blank" href="https://www.facebook.com/sync4webdevelopment/"><i class="fa fa-facebook social-icon facebook" aria-hidden="true"></i></li>
+          <li><i class="fa fa-google-plus social-icon google" aria-hidden="true"></i></li>
+        </ul>
+      </div>
+    </div>
+       <div class="col-md-3 col-sm-6 footer-col">
+        <h6 class="heading7">Social Media</h6>
+           
+    <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"><img class="scrollup" src="images/Sync_Development_Alphen_ad_Rijn_Scroll.png"> </i></a>
+<script>
+// When the user scrolls down 30px from the top of the document, show the button
+$(window).scroll(function() {
+    if ($(this).scrollTop() >= 10) {        // If page is scrolled more than 50px
+        $('#return-to-top').fadeIn(200);    // Fade in the arrow
+    } else {
+        $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+    }
+});
+$('#return-to-top').click(function() {      // When arrow is clicked
+    $('body,html').animate({
+        scrollTop : 0                       // Scroll to top of body
+    }, 500);
+});
+           </script>
+       
+    <div class="col-md-6">
+      <ul class="bottom_ul">
+        <li><a href="#">prabuuideveloper.com</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Faq's</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#">Site Map</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+    </div>
+    </footer>
             
         
     </body>
