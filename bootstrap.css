@@ -2418,7 +2418,7 @@ output {
   font-size: 14px;
   line-height: 1.42857143;
   color: #555;
-  background-color: #fff;
+  background-color: #504645;
   background-image: none;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -7325,5 +7325,4 @@ footer { background-color:#124b8c; max-height:320px; font-family: 'Open Sans', s
     float: left;
    
 }
-
 
