@@ -6862,7 +6862,7 @@ footer { background-color:#124b8c; max-height:320px; font-family: 'Open Sans', s
 .footer-ul i { margin-right:10px;}
 .footer-ul li a:hover {transition: color 0.2s linear 0s, background 0.2s linear 0s; color:#ff670f; }
 
- .copyright { min-height:40px; background-color:#c6c6c6; position:absolute; width:100%;}
+ .copyright { min-height:40px; background-color:#151020; position:absolute; width:100%;}
  .copyright p { text-align:left; color:#FFF; padding:10px 0; margin-bottom:0;}
  .heading7 { font-size:21px; font-weight:700; color:#d9d6d6; margin-bottom:22px; display:none;}
  .post p { font-size:12px; color:#FFF; line-height:20px; display:none;}
@@ -7352,4 +7352,9 @@ textarea:focus, input:focus {
     
 margin-right: 7%;
 margin-top: -6%; 
+}
+
+#map {
+width: 100%;
+height: 350px;
 }

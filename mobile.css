@@ -278,51 +278,6 @@ body {
     background-size: cover;
 }
 
-.bg-img3 {
-    /* The image used */
-    background-image: url("../images/Sync_Development_Alphen_ad_Rijn_Laptop_mobiel_computer.jpg");
-
-    /* Set a specific height */
-    min-height: 250px; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: scroll;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}    
-
-.bg-img4 {
-    /* The image used */
-    background-image: url("../images/Sync_Development_Alphen_ad_Rijn_Seo.jpg");
-
-    /* Set a specific height */
-    min-height: 250px; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: scroll;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} 
-
-
-.bg-img5 {
-    /* The image used */
-    background-image: url("../images/Sync_Development_Alphen_ad_Rijn_Werkwijze.jpg");
-
-    /* Set a specific height */
-    min-height: 200px; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: scroll;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}  
-
-
-
 html,body
 {
 min-height:100%;
@@ -332,4 +287,10 @@ min-height:100%;
     margin-right: -15px;
     margin-left: -15px;
     margin-left: -8%;
+}
+
+#map {
+ max-width: 80%;
+ height: 200px;
+ margin-left: 10%;
 }
