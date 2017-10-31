@@ -102,6 +102,7 @@ $(document).ready(function(){
     </div>
     </div>
     
+    
       
 
     
@@ -111,19 +112,24 @@ if(isset($_GET['msg'])) echo $_GET['msg'];
       <form method="POST" action="mail_handler.php">
       <div class="col-sm-5 slideanim">
       <div class="row">
-        <div class="col-dm-4 form-group">
+<div id="formnaam">
+        <div class="col-sm-5 form-group">
           <input class="form-control" id="name" name="name" placeholder="Naam" type="text" required>
           </div>
-          <div class="col-dm-4 form-group">
+          </div>
+<div id="formemail">
+          <div class="col-sm-5 form-group">
           <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
         </div>
       </div>
-      <textarea class="form-control" id="msg" name="msg" placeholder="Bericht" rows="9"></textarea><br>
-      <div class="row">
-        <div class="col-dm-7 form-group">
-         <button class="btn btn-default pull-right" id="submit" name="submit" type="submit">Verstuur</button>
+<textarea class="form-control" id="msg" name="msg" placeholder="Bericht" rows="9"></textarea><br>
+ <div class="row">
+   <div id="formsend">  
+    <div class="col-dm-4 form-group">
+     <button class="btn btn-default pull-right" id="submit" name="submit" type="submit">Send</button>
         </div>
       </div>
+          </div>
     </div>
   </div>
 </div> 

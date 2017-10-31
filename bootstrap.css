@@ -2412,15 +2412,15 @@ output {
 }
 .form-control {
   display: block;
-  width: 100%;
-  height: 34px;
+  width: 95%;
+  height: 40px;
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.42857143;
   color: #555;
   background-color: #504645;
   background-image: none;
-  border: 1px solid #ccc;
+  border: 1px solid #504645;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
@@ -2429,7 +2429,7 @@ output {
           transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
 .form-control:focus {
-  border-color: #66afe9;
+  border-color: #c78d3d;
   outline: 0;
   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
           box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
@@ -2477,7 +2477,7 @@ input[type="month"].input-lg {
   line-height: 46px;
 }
 .form-group {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 .radio,
 .checkbox {
@@ -2829,9 +2829,9 @@ fieldset[disabled] .btn {
   opacity: .65;
 }
 .btn-default {
-  color: #fff;
-  background-color: #504645;
-  border-color: #fff;
+  color: #504645;
+  background-color: #fff;
+  border-color: #cb8d3d;
 }
 .btn-default:hover,
 .btn-default:focus,
@@ -2839,7 +2839,7 @@ fieldset[disabled] .btn {
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
   color: #fff;
-  background-color: #cb8d3d;
+  background-color: #504645;
   border-color: #fff;
 }
 .btn-default:active,
@@ -7326,3 +7326,30 @@ footer { background-color:#124b8c; max-height:320px; font-family: 'Open Sans', s
    
 }
 
+input, select, textarea{
+    color: #fff;
+}
+
+textarea:focus, input:focus {
+    color: #fff;
+}
+
+#formnaam {
+    float: left;
+    width: 113%;    
+   
+}
+
+#formemail {
+    
+       float: right;
+    margin-right: -63%;
+    width: 113%;
+    margin-top: -41px;
+}
+
+#formsend {
+    
+margin-right: 7%;
+margin-top: -6%; 
+}
