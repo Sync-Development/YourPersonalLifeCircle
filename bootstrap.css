@@ -6888,15 +6888,8 @@ footer { background-color:#124b8c; max-height:320px; font-family: 'Open Sans', s
  .footer-social li{
      float:left;
  }
- .linked-in{
-     background-color:#007bb6;
- }
- .facebook{
-     background-color:#3b5998;
- }
- .twitter{
-     background-color:#1da1f2;
- }
+
+
  .google{
      background-color:#f63e28;
  }
@@ -7357,9 +7350,48 @@ margin-top: -6%;
 #map {
 width: 100%;
 height: 350px;
+margin-top:10%;
 }
 
 .positie{
         margin-bottom: -42px;
     width: 19%;
+}
+/*start buttons*/
+.icon-set{
+    background: transpirant;
+}
+
+.fa {
+    color: #fff;
+}
+
+.nav > li.facebook > a:hover {
+    background: #3b5998 !important;
+}
+
+.nav > li.twitter > a:hover {
+    background: #55acee !important;
+}
+
+.nav > li.instagram > a:hover {
+    background: #405de6;
+    background: -webkit-linear-gradient(left top, #405de6, #833ab4, #fd1d1d, #f56040, #fcaf45);
+    background: -o-linear-gradient(bottom right, #405de6, #833ab4, #fd1d1d, #f56040, #fcaf45);
+    background: -moz-linear-gradient(bottom right, #405de6, #833ab4, #fd1d1d, #f56040, #fcaf45);
+    background: linear-gradient(to bottom right, #405de6, #833ab4, #fd1d1d, #f56040, #fcaf45);
+}
+
+.nav > li.linkedin > a:hover {
+    background: #0077b5 !important;
+}
+
+.navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.socialbuttons{ 
+   margin-top:-10%;
+   margin-right: 2.5%;
 }
