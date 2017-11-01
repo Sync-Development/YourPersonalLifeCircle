@@ -32,12 +32,12 @@
    <body id="page">     
 
         <ul class="cb-slideshow">
-            <li><span>Image 01</span><div><h3><img class="img" src="images/Sync_Development_Alphen_ad_Rijn_Logo.png"></h3></div></li>
-            <li><span>Image 02</span><div><h3><img class="img" src="images/Sync_Development_Alphen_ad_Rijn_Logo.png"></h3></div></li>
-            <li><span>Image 03</span><div><h3><img class="img" src="images/Sync_Development_Alphen_ad_Rijn_Logo.png"></h3></div></li>
-            <li><span>Image 04</span><div><h3><img class="img" src="images/Sync_Development_Alphen_ad_Rijn_Logo.png"></h3></div></li>
-            <li><span>Image 05</span><div><h3><img class="img" src="images/Sync_Development_Alphen_ad_Rijn_Logo.png"></h3></div></li>
-            <li><span>Image 06</span><div><h3><img class="img" src="images/Sync_Development_Alphen_ad_Rijn_Logo.png"></h3></div></li>
+            <li><span>Image 01</span></li>
+            <li><span>Image 02</span></li>
+            <li><span>Image 03</span></li>
+            <li><span>Image 04</span></li>
+            <li><span>Image 05</span></li>
+            <li><span>Image 06</span></li>
         </ul>
         <div class="container">
         <div class="navbar navbar-default navbar-static-top">
@@ -83,17 +83,131 @@ $(document).ready(function(){
 </div>
 </div>
 </div>
-      <a href="home.html"><img class="logo" src="images/officieel%20logo.png"></a>         
+            <a href="home.html"><img class="logo" src="images/officieel%20logo.png"></a>   
                 <div class="clr"></div>
             </div><!--/ Codrops top bar -->
+       
+<div id="qtpie">
+  <div>
+    <svg viewbox="0 0 200 200">
+      <path class="Rust" data-pie="35" data-desc="Mentale rust"/>
+      <path class="Voeding" data-pie="35" data-desc="Voedingsbalans"/>
+      <path class="Kracht" data-pie="35" data-desc="Fysieke kracht"/>
 
+      <circle transform="translate(100, 100)">
+        </svg>
+      </div>
+  </div>
+    
+<script>
+$(function() {	
+	
+// Developed by IceMaD
+// marcduboc.fr
+// https://github.com/MarcDuboc/qtpie
+  
+// Thanks to Anders Grimsrud for the base : https://codepen.io/agrimsrud/pen/EmCoa
+
+		qtpie = {
+
+		init : function(options) {
+
+			var defaultOptions = {
+				id         : '#qtpie',
+				defaultMsg : 'Skills',
+				radius     : 85,
+				list       : false,
+				hover      : true
+			}
+			options = $.extend({}, defaultOptions, options);
+
+// Draw paths
+			base = 0;
+			$paths = $(options.id).find('path');
+			$paths.each(function(index, el) {
+				deg = 3.61*$(this).attr('data-pie');
+				// 3.61 instead of 3.6 to fix little svg render bug
+				qtpie.draw({
+					slice  : $(this),
+					degree : deg,
+					base   : base
+				});
+				base += parseInt(deg);
+			});
+
+// Inside
+			$(options.id).find('circle').attr('r',options.radius);
+			$(options.id).find('div').append('<div class="qtpieInside">'+options.defaultMsg+'</div>').find('circle').css('fill',$('body').css('background-color'));
+
+// Hover events
+			if (options.hover) {
+				$paths.hover(function(event) {
+					$current = $(this);
+					$inside  = $current.parent().parent().find('.qtpieInside')
+
+					$inside.stop().fadeOut(200, function() {
+						$inside
+							.css('color',$current.css('fill'))
+							.html($current.attr('data-desc'))
+							.fadeIn(200);
+					});
+				},function(){
+					$current = $(this);
+					$inside  = $current.parent().parent().find('.qtpieInside')
+
+					$inside.stop().fadeOut(200, function() {
+						$inside
+							.removeAttr('style')
+							.html(options.defaultMsg)
+							.fadeIn(200);
+					});
+					$(this)
+				});
+			};
+
+// List generation (bootstrap style)
+			if (options.list) {
+				var list = '';
+				$paths.each(function(index, el) {
+					list += '<li><span class="dot" style="background-color:'+$(this).css('fill')+';"></span>'+$(this).attr('data-desc')+'</li>';
+				});
+				$(options.id).append('<ul>'+list+'</ul>');
+			};
+
+// Display at the dn
+			$(options.id).show();
+		},
+
+		draw : function(options) {
+
+			var defaultOptions = {
+					slice  : null,
+					degree : 0,
+					base   : 0
+				};
+			options = $.extend({}, defaultOptions, options);
+
+			var rayon = ( options.degree * Math.PI / 180),
+				x     = Math.sin( rayon ) * 100,
+				y     = Math.cos( rayon ) * - 100,
+				mid   = ( options.degree > 180 ) ? 1 : 0,
+				anim  = 'M 0 0 v -100 A 100 100 1 ' + mid + ' 1 ' + x + ' ' + y + ' z';
+			options.slice.attr( 'd', anim ).attr('transform', 'translate(100, 100) rotate('+base+')');
+		}
+	}
+	qtpie.init({
+    defaultMsg : 'YourPersonalLifeCircle'
+  });
+});
+</script>  
+       
 <div id="into" data-image="img/bgn1.jpg" class="into-slider background-image" style="background-image: url(&quot;im&quot;);">
 <div class="container-fluid">
 <div class="row">
 <div class="col-md-4">
 <div class="item"><i class="pe-7s-phone"></i>
 <img class="positie" src="images/YourPersonalLifeCircle-Bodegraven-fysieke-veerkracht.png">
-<h4 style="color:#d6342c;">Fysieke Veerkracht: (Personal Training)</h4>
+<h4 style="color:#c6c6c6;">Fysieke Veerkracht: (Personal Training)</h4>
 
 <p>In dit traject, ga je aan de slag om jezelf hoger in je energieniveau te tillen, 
 doormiddel van het verbeteren van je fysieke staat van zijn, via personal training. <br><br></p>
@@ -102,7 +216,7 @@ doormiddel van het verbeteren van je fysieke staat van zijn, via personal traini
 <div class="col-md-4">
 <div class="item"><i class="pe-7s-like"></i>
 <img class="positie" src="images/YourPersonalLifeCircle-Bodegraven-voedings-balans.png">
-<h4 style="color:#65a13e;">Voeding’s Balans: (Private Coaching) </h4>
+<h4 style="color:#65a13e;">Voedingsbalans: (Private Coaching) </h4>
 <p>In dit traject, ga je via onze begeleiding op zoek naar de juiste balans in je voeding patroon. 
 Via duidelijke contactmomenten en advies, wordt je geholpen tot het gewenste resultaat. </p>
 </div>
