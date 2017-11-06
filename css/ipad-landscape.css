@@ -7326,16 +7326,16 @@ textarea:focus, input:focus {
 
 #formnaam {
     float: left;
-    width: 113%;    
+    width: 100%;    
    
 }
 
 #formemail {
     
        float: right;
-    margin-right: -63%;
-    width: 113%;
-    margin-top: -41px;
+    margin-right: 0%;
+    width: 100%;
+    margin-top: 0px;
 }
 
 #formsend {
