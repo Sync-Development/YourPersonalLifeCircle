@@ -383,20 +383,3 @@ margin-top: -425px;
     background: #0077b5 !important;
 }
 
-.facebook{
-    background-color:#3b5998;
-}
-
-.twitter{
-    background-color:#55acee;
-}
-.instagram{
-     background: #405de6;
-    background: -webkit-linear-gradient(left top, #405de6, #833ab4, #fd1d1d, #f56040, #fcaf45);
-    background: -o-linear-gradient(bottom right, #405de6, #833ab4, #fd1d1d, #f56040, #fcaf45);
-    background: -moz-linear-gradient(bottom right, #405de6, #833ab4, #fd1d1d, #f56040, #fcaf45);
-    background: linear-gradient(to bottom right, #405de6, #833ab4, #fd1d1d, #f56040, #fcaf45);
-}
-.linkedin{
-    background-color:#0077b5;
-}
