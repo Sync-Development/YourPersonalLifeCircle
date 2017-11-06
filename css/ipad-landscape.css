@@ -6759,7 +6759,7 @@ strong{
 
 .scrollup{
     width: 40%;
-    float:right;
+    margin-right:30%;
 }
 
 #return-to-top {
@@ -7345,7 +7345,7 @@ margin-top: -6%;
 }
 
 #map {
-width: 112.3%;
+width: 100%;
 height: 350px;
 margin-top:10%;
 }
