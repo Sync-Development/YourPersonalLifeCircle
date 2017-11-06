@@ -7436,20 +7436,6 @@ path:hover {
 	color: #ecf0f1;
 }
 
-.qtpieInside-2 {
-
-	position: absolute;
-	left: 20%;
-	width: 60%;
-	top: 50%;
-	margin-top: -20px;
-	font-size: 25px;
-	line-height: 40px;
-	overflow: hidden;
-	text-align: center;
-	color: #ecf0f1;
-}
-
 #qtpie {
 	position: relative;
 	display: block;
