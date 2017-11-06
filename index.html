@@ -20,7 +20,7 @@
 <link rel="stylesheet" media="(min-width: 760px) and (orientation: portrait)" href="css/ipad.css">
 
 <link rel="stylesheet" media="(max-width: 1370px) and (orientation: landscape)" href="css/ipad-landscape.css">
-<link href="https://fonts.googleapis.com/css?family=Tauri" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
         <link rel="shortcut icon" href="../favicon.ico"> 
         <link rel="stylesheet" type="text/css" href="css/demo.css" />
         <link rel="stylesheet" type="text/css" href="css/style1.css" />
@@ -89,9 +89,16 @@ $(document).ready(function(){
 <div id="qtpie">
   <div>
     <svg viewbox="0 0 200 200">
-      <path class="Rust" data-pie="35" data-desc="Mentale rust"/>
-      <path class="Voeding" data-pie="35" data-desc="Voedingsbalans"/>
-      <path class="Kracht" data-pie="35" data-desc="Fysieke kracht"/>
+      <path class="Rust" data-pie="35" data-desc="<h23>Mentale Rust</h23> 
+        <br>
+        <p2>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p2>"/>
+        
+        <path class="Voeding" data-pie="35" data-desc="<h22>Voedingsbalans</h22> 
+        <br>
+        <p2>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p2>"/>
+      <path class="Kracht" data-pie="35" data-desc="<h24>Fysieke kracht</h24> 
+        <br>
+        <p2>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p2>"/>
 
       <circle transform="translate(100, 100)">
         </svg>
@@ -136,7 +143,7 @@ $(function() {
 
 // Inside
 			$(options.id).find('circle').attr('r',options.radius);
-			$(options.id).find('div').append('<div class="qtpieInside">'+options.defaultMsg+'</div>').find('circle').css('fill',$('body').css('background-color'));
+			$(options.id).find('div').append('<div class="qtpieInside"'+options.defaultMsg+'</div>').find('circle').css('fill',$('body').css('background-color'));
 
 // Hover events
 			if (options.hover) {
@@ -163,7 +170,6 @@ $(function() {
 					$(this)
 				});
 			};
-
 // List generation (bootstrap style)
 			if (options.list) {
 				var list = '';
@@ -195,7 +201,7 @@ $(function() {
 		}
 	}
 	qtpie.init({
-    defaultMsg : 'YourPersonalLifeCircle'
+    defaultMsg : ''
   });
 });
 </script>  
