@@ -905,15 +905,15 @@ body {
 
 p{
     color: white;
-    font-family: 'Tauri', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 17px;
     
 }
 
 p2{
-    color: grey;
-    font-family: 'Tauri', sans-serif;
-    font-size: 15px;
+    color: snow;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
     
 }
 
@@ -922,25 +922,36 @@ body h1{
     color: #FFFFFF;
     font-size: 18px;
     margin: 0.67em; 
+    font-family: 'Montserrat', sans-serif;
 }
 
 body h2{
-    color: #124b8c;
-    font-family: 'Tauri', sans-serif;
+    color: #65a13e;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body h22{
-    color: #124b8c;
-    font-family: 'Tauri', sans-serif;
+    color: #65a13e;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body h23{
+    color: #65aeea;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body h24{
+    color: #c6c6c6;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body h3{
     color: #124b8c;
-    font-family: 'Tauri', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 body h4{
     color: white;
-    font-family: 'Tauri', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -7411,7 +7422,21 @@ path:hover {
 }
 
 .qtpieInside {
-	border-radius: 100%;
+
+	position: absolute;
+	left: 110%;
+	width: 150%;
+	top: 20%;
+	margin-top: -20px;
+	font-size: 25px;
+	line-height: 40px;
+	overflow: hidden;
+	text-align: center;
+	color: #ecf0f1;
+}
+
+.qtpieInside-2 {
+
 	position: absolute;
 	left: 20%;
 	width: 60%;
@@ -7431,6 +7456,7 @@ path:hover {
 	margin: 10px auto;
 	width: 450px;
 	height: 450px;
+    margin-left: 150px;
 }
 
 /* COLORS */
