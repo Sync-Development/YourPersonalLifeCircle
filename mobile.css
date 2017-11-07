@@ -102,11 +102,8 @@ height: 200px;
     display:none;
 }
 
-.socialmedia{
-    display:flex;
-}
 
-footer { background-color:#4431a4; max-height:320px; font-family: 'Open Sans', sans-serif; display:none; }
+footer { background-color:#4431a4; max-height:320px; font-family: 'Open Sans', sans-serif;  }
 .footer-col { margin-top:13px; }
 .logofooter { margin-bottom:10px; font-size:25px; color:#fff; font-weight:700; display:none;}
 
@@ -119,9 +116,9 @@ footer { background-color:#4431a4; max-height:320px; font-family: 'Open Sans', s
 .footer-ul i { margin-right:10px;}
 .footer-ul li a:hover {transition: color 0.2s linear 0s, background 0.2s linear 0s; color:#ff670f; }
 
- .copyright { max-height:80px; background-color:#68a6da;     position: absolute;
+ .copyright { max-height:80px; background-color:black;     position: absolute;
     width: 100%;
-    margin-bottom: 0px;     overflow: hidden;}
+    margin-bottom: 0px;     overflow: hidden;     margin-top: 177px;}
 .copyright3 { max-height:80px; background-color:#68a6da;     position: absolute;
     width: 100%;
     margin-bottom: 0px; }
@@ -133,28 +130,9 @@ footer { background-color:#4431a4; max-height:320px; font-family: 'Open Sans', s
  .bottom_ul li { float:left; line-height:40px; display:none;}
  .bottom_ul li:after { content:"/"; color:#FFF; margin-right:8px; margin-left:8px;}
  .bottom_ul li a { color:#FFF;  font-size:12px; display: none;}
-.social-icon {
-    width: 30px;
-    height: 30px;
-    font-size: 15px;
-    background-color: blue;
-    color: #fff;
-    text-align: center;
-    margin-right: 10px;
-    padding-top: 7px;
-    border-radius: 50%;
-}
-.footer-social1{
-    display:flex;
-}
-.footer-social{
-    display:none;
-}
- .footer-social li{
-     float:left;
- }
 
- }
+
+ 
 
 .active2 {
   transition: 0.4s ease;
@@ -314,7 +292,7 @@ margin-left: 2%;
 }
 
 #map {
-width: 100%;
+min-width: 89%;
 height: 250px;
 margin-top: -425px;
 margin-left: 6%;
