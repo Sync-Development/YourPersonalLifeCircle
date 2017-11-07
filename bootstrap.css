@@ -7433,7 +7433,7 @@ path:hover {
 	line-height: 40px;
 	overflow: hidden;
 	text-align: center;
-	color: #ecf0f1;
+	background-color: rgba(236, 240, 241, 0.52);
 }
 
 #qtpie {
@@ -7472,5 +7472,5 @@ path:hover {
 	fill: #e7e3e3;
 }
 
-  
+
   
