@@ -930,21 +930,6 @@ body h2{
     font-family: 'Montserrat', sans-serif;
 }
 
-body h22{
-    color: #65a13e;
-    font-family: 'Montserrat', sans-serif;
-}
-
-body h23{
-    color: #65aeea;
-    font-family: 'Montserrat', sans-serif;
-}
-
-body h24{
-    color: #c6c6c6;
-    font-family: 'Montserrat', sans-serif;
-}
-
 body h3{
     color: #124b8c;
     font-family: 'Montserrat', sans-serif;
@@ -7407,75 +7392,3 @@ margin-top:10%;
    margin-right: 2.5%;
 }
 /*eind buttons*/
-
-svg {
-	display: inline-block;
-	height: 100%;
-	width: 100%;
-}
-
-path {
-	fill: #111;
-	cursor: pointer;
-	opacity: 1;
-}
-
-path:hover {
-	fill: #fff;
-}
-
-.qtpieInside {
-
-	position: absolute;
-	left: 110%;
-	width: 150%;
-	top: 20%;
-	margin-top: -20px;
-	font-size: 25px;
-	line-height: 40px;
-	overflow: hidden;
-	text-align: center;
-	background-color: rgba(236, 240, 241, 0.52);
-}
-
-#qtpie {
-	position: relative;
-	display: block;
-	display: none;
-	margin: 10px auto;
-	width: 450px;
-	height: 450px;
-    margin-left: 150px;
-}
-
-/* COLORS */
-
-.Rust {
-	fill: #65aeea;
-}
-
-.Rust:hover {
-	fill: #42a3f3;
-}
-
-.Voeding {
-	fill: #65a13e;
-}
-
-.Voeding:hover {
-	fill: #79c647;
-}
-
-.Kracht {
-	fill: #c6c6c6;
-}
-
-.Kracht:hover {
-	fill: #e7e3e3;
-}
-
-#Hover{
-    margin-top: -300px;
-    margin-left: 260px;
-    position: absolute;
-}
