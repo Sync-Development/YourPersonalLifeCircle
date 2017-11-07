@@ -7298,10 +7298,12 @@ footer { background-color:#124b8c; max-height:320px; font-family: 'Open Sans', s
     .panel-success {
     border-color: #74acca;
 }
+
+/*geld voor dienstenpagina*/
 .row2 {
-    margin-right: -15px;
-    margin-left: -15px;
-    margin-left: 8%;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 36.4%;
 }
 
 .likeknop{
@@ -7477,5 +7479,3 @@ path:hover {
     margin-left: 260px;
     position: absolute;
 }
-
-  
