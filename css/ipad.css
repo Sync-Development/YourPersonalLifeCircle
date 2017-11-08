@@ -7463,4 +7463,8 @@ path:hover {
     
   .fixed {display: none;}
   
-  
+  .logopositie {
+  margin-left: -72%;
+    margin-top: -99px;
+    float: left;
+}
