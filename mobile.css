@@ -26,7 +26,7 @@
 
 .scrollup{
     width: 80%;
-    margin-right: -33%;
+    margin-right: 21%;
     margin-bottom: -35px;
 }
 #return-to-top {
@@ -257,7 +257,7 @@ min-height:100%;
 .row2 {
     margin-right: -15px;
     margin-left: -15px;
-    margin-left: -8%;
+    margin-left: 2%;
 }
 
 #map {
@@ -268,8 +268,8 @@ min-height:100%;
 
 #formnaam {
     float: left;
-    width: 100%;
-    margin-left: 2%;
+    width: 92%;
+    margin-left: -2%;
     margin-top: 16%;    
    
 }
@@ -277,8 +277,8 @@ min-height:100%;
 #formemail {
     
 float: right;
-margin-right: -2%;
-width: 100%;
+margin-right: 10%;
+width: 92%;
 margin-top: 4px;
 }
 
@@ -290,8 +290,8 @@ margin-top: -6%;
 
 #formbericht{
 
-margin-left: 2%;
-    width: 100%;
+margin-left: -2%;
+    width: 92%;
 }
 
 #map {
