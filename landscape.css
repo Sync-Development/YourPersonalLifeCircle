@@ -109,3 +109,21 @@ carousel.less:193
 .into-slider > div > div > div:nth-child(2n) .item {
        background-color: rgba(85, 70, 70, 0.84);
 }
+
+
+
+.bg-img1 {
+    /* The image used */
+    background-image: url("../YourPersonalLifeCircle/images/AAIA_wDGAAAAAQAAAAAAAAsRAAAAJGUxYjNmYzQ1LWQxZDctNDkxYS05OTU5LWJhMWMxMzM0ZDQ4Mg%5B1%5D.jpg");
+
+    /* Set a specific height */
+    min-height: 350px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}

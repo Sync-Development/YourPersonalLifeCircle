@@ -316,28 +316,7 @@ margin-left: 6%;
     margin-top: 6%;
 }
 
-#qtpie {
-    position: relative;
-    display: block;
-    display: none;
-    margin: 10px auto;
-    width: 200px;
-    height: 200px;
-}
 
-.qtpieInside {
-    border-radius: 100%;
-    position: absolute;
-    left: 9%;
-    width: 81%;
-    top: 50%;
-    margin-top: -20px;
-    font-size: 15px;
-    line-height: 40px;
-    overflow: hidden;
-    text-align: center;
-    color: #ecf0f1;
-}
 .socialbuttons {
     
     margin-top: 75%;
@@ -369,4 +348,41 @@ margin-left: 6%;
     margin-top: -184px;
     margin-left: 43%;
     position: absolute;
+}
+
+.bg-img1 {
+    /* The image used */
+    background-image: url("../YourPersonalLifeCircle/images/AAIA_wDGAAAAAQAAAAAAAAsRAAAAJGUxYjNmYzQ1LWQxZDctNDkxYS05OTU5LWJhMWMxMzM0ZDQ4Mg%5B1%5D.jpg");
+
+    /* Set a specific height */
+    min-height: 200px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#wrapper {
+    width: 90%;
+    text-align: center;
+}
+
+#mentaal {
+    width: 85%;
+    height: 250px;
+    margin-left: 6%;
+}
+
+#voeding {
+    width: 85%;
+    height: 250px;
+    margin-right: 6%;
+}
+
+#fysiek {
+    width: 85%;
+    height: 250px;
+    margin-left: 6%;
 }

@@ -904,7 +904,7 @@ body {
 }
 
 p{
-    color: white;
+    color: snow;
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
     
@@ -926,13 +926,15 @@ body h1{
 }
 
 body h2{
-    color: #65a13e;
+    color: snow;
     font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
 }
 
 body h3{
-    color: #124b8c;
+    color: white;
     font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
 }
 body h4{
     color: white;
@@ -965,11 +967,7 @@ a:focus {
 figure {
   margin: 0;
 }
-img {
-    vertical-align: middle;
-    width: 12%;
-    margin-bottom: 360px;
-}
+
 .logopositie {
 
     margin-left:-103%;
@@ -7409,3 +7407,26 @@ margin-top:10%;
    margin-right: 2.5%;
 }
 /*eind buttons*/
+
+#wrapper{
+    width: 90%;
+}
+
+.gap-right {
+  margin-right: 15px; 
+}
+
+#mentaal {
+    width: 400px;
+    height: 350px;
+}
+
+#voeding {
+    width: 400px;
+    height: 350px;
+}
+
+#fysiek {
+    width: 400px;
+    height: 350px;
+}

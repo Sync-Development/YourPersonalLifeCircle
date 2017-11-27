@@ -903,44 +903,11 @@ body {
   background-color: #fff;
 }
 
-p{
-    color: white;
-    font-family: 'Tauri', sans-serif;
-    font-size: 17px;
-    
-}
-
-p2{
-    color: grey;
-    font-family: 'Tauri', sans-serif;
-    font-size: 15px;
-    
-}
-
 
 body h1{
     color: #FFFFFF;
     font-size: 18px;
     margin: 0.67em; 
-}
-
-body h2{
-    color: #124b8c;
-    font-family: 'Tauri', sans-serif;
-}
-
-body h22{
-    color: #124b8c;
-    font-family: 'Tauri', sans-serif;
-}
-
-body h3{
-    color: #124b8c;
-    font-family: 'Tauri', sans-serif;
-}
-body h4{
-    color: white;
-    font-family: 'Tauri', sans-serif;
 }
 
 
