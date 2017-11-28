@@ -249,10 +249,10 @@ body {
 
 .bg-img1 {
     /* The image used */
-    background-image: url("../images/AAIA_wDGAAAAAQAAAAAAAAsRAAAAJGUxYjNmYzQ1LWQxZDctNDkxYS05OTU5LWJhMWMxMzM0ZDQ4Mg%5B1%5D.jpg");
+    background-image: url("../images/5.jpg");
 
     /* Set a specific height */
-    min-height: 300px;
+    min-height: 250px;
 
     /* Create the parallax scrolling effect */
     background-attachment: scroll;

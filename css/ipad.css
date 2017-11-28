@@ -936,11 +936,7 @@ a:focus {
 figure {
   margin: 0;
 }
-img {
-  vertical-align: middle;
-    width: 15%;
-    margin-bottom: 360px; 
-}
+
 .img-responsive,
 .thumbnail > img,
 .thumbnail a > img,
@@ -7361,77 +7357,21 @@ margin-top:10%;
 }
 /*eind buttons*/
 
-svg {
-	display: inline-block;
-	height: 100%;
-	width: 100%;
+#wrapper {
+    width: 90%;
 }
 
-path {
-	fill: #111;
-	cursor: pointer;
-	opacity: 1;
+#mentaal {
+    width: 50%;
+    height: 320px;
 }
 
-path:hover {
-	fill: #fff;
+#voeding {
+    width: 50%;
+    height: 320px;
 }
 
-.qtpieInside {
-	border-radius: 100%;
-	position: absolute;
-	left: 15%;
-	width: 70%;
-	top: 50%;
-	margin-top: -20px;
-	font-size: 20px;
-	line-height: 40px;
-	overflow: hidden;
-	text-align: center;
-	color: #ecf0f1;
-}
-
-#qtpie {
-	position: relative;
-	display: block;
-	display: none;
-	margin: 10px auto;
-	width: 300px;
-	height: 300px;
-}
-
-/* COLORS */
-
-.Rust {
-	fill: #65aeea;
-}
-
-.Rust:hover {
-	fill: #42a3f3;
-}
-
-.Voeding {
-	fill: #65a13e;
-}
-
-.Voeding:hover {
-	fill: #79c647;
-}
-
-.Kracht {
-	fill: #c6c6c6;
-}
-
-.Kracht:hover {
-	fill: #e7e3e3;
-}
-
-@media screen and (max-width: 1000px) {
-    
-  .fixed {display: none;}
-  
-  .logopositie {
-  margin-left: -72%;
-    margin-top: -99px;
-    float: left;
+#fysiek {
+    width: 50%;
+    height: 320px;
 }

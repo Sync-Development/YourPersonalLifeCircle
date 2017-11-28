@@ -352,7 +352,7 @@ margin-left: 6%;
 
 .bg-img1 {
     /* The image used */
-    background-image: url("../YourPersonalLifeCircle/images/AAIA_wDGAAAAAQAAAAAAAAsRAAAAJGUxYjNmYzQ1LWQxZDctNDkxYS05OTU5LWJhMWMxMzM0ZDQ4Mg%5B1%5D.jpg");
+    background-image: url("../YourPersonalLifeCircle/images/5.jpg");
 
     /* Set a specific height */
     min-height: 200px; 
@@ -371,18 +371,18 @@ margin-left: 6%;
 
 #mentaal {
     width: 85%;
-    height: 250px;
+    height: 200px;
     margin-left: 6%;
 }
 
 #voeding {
     width: 85%;
-    height: 250px;
+    height: 200px;
     margin-right: 6%;
 }
 
 #fysiek {
     width: 85%;
-    height: 250px;
+    height: 200px;
     margin-left: 6%;
 }

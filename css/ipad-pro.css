@@ -17,3 +17,26 @@ margin-top: -43px;
     margin-top: -99px;
     float: left;
 }
+
+#wrapper {
+    width: 90%;
+
+}
+
+#mentaal {
+    width: 85%;
+    height: 200px;
+    margin-left: 6%;
+}
+
+#voeding {
+    width: 85%;
+    height: 200px;
+    margin-right: 6%;
+}
+
+#fysiek {
+    width: 85%;
+    height: 200px;
+    margin-left: 6%;
+}

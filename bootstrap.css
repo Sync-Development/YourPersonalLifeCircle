@@ -913,7 +913,7 @@ p{
 p2{
     color: snow;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     
 }
 
@@ -928,13 +928,13 @@ body h1{
 body h2{
     color: snow;
     font-family: 'Montserrat', sans-serif;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 body h3{
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-size: 22px;
+    font-size: 20px;
 }
 body h4{
     color: white;
@@ -6724,35 +6724,14 @@ hr {
 
 
 /*voor onze pakketen op pagina diensten*/
-#wrapper2{
+#wrapper-2{
     
     width: 80%;
     margin: 0 auto;
     font-family:'Josefin sans', sans-serif; 
     text-align: center;
 }
-#wrapper3{
-    
-    width: 100%;
-    margin: 0 auto;
-    background-color: white;
-}
 
-.wrapper-3{
-    width: 80%;
-    margin: 0 auto;
-    font-family:'Josefin sans', sans-serif; 
-
-}
-}
-
-#wrapper4{
-    
-    width: 100%;
-    margin: 0 auto;
-    background-color: white;
-    text-align: center;
-}
 
 
 
