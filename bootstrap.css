@@ -969,10 +969,18 @@ figure {
 }
 
 .logopositie {
-    margin-left: -126%;
+    margin-left: -110%;
     margin-top: -48px;
     float: left;
 }
+
+.logopositie-mobiel {
+    margin-left: -110%;
+    margin-top: -48px;
+    float: left;
+    display: none;
+}
+
 .img-responsive,
 .thumbnail > img,
 .thumbnail a > img,
@@ -7409,4 +7417,9 @@ margin-top:10%;
 #fysiek {
     width: 400px;
     height: 350px;
+}
+
+#logo {
+    width: 200px;
+    height: 200px;
 }

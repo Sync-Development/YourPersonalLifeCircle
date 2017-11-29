@@ -1,23 +1,15 @@
 .logopositie {
-    margin-left: -85%;
-    margin-top: -94px;
+ display:none;
 }
-.logo{
-    width: 100%;
-    height: 200px;
-    margin: 0 auto; 
-    align-content: center;
-    display:none;
+.logopositie-mobiel {
+    margin-left: -2%;
+    margin-top: -90px;
+    display:inherit;
 }
 
-.logomobile{
-    display:flex;
-     width: 13%;
-    height: 50px;
-    margin: 0 auto; 
-    align-content: center;
-    margin-top: 11px;
-    margin-bottom:-22px;
+#logo {
+    height: 100px;
+    width: 90px;
 }
 
 .navbar-default {

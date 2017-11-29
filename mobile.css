@@ -1,23 +1,14 @@
 .logopositie {
     margin-left: 0%;
-    margin-top: -14px;
-}
-.logo{
-    width: 100%;
-    height: 200px;
-    margin: 0 auto; 
-    align-content: center;
-    display:none;
+    margin-top: -5px;
 }
 
-.logomobile{
-    display:flex;
-     width: 16%;
-    height: 57px;
-    margin: 0 auto; 
-    align-content: center;
-    margin-top: 5px;
+
+#logo {
+    width: 120px;
+    height: 100px;
 }
+
 
 .navbar-default {
     background-color: transparent;
@@ -386,3 +377,4 @@ margin-left: 6%;
     height: 200px;
     margin-left: 6%;
 }
+

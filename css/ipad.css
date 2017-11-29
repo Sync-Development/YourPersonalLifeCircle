@@ -7375,3 +7375,15 @@ margin-top:10%;
     width: 50%;
     height: 320px;
 }
+
+#logo {
+    width: 200px;
+    height: 180px;
+}
+
+.logopositie {
+    margin-left: -20%;
+    margin-top: -25%;
+}
+
+
