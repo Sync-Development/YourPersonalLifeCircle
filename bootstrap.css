@@ -934,7 +934,7 @@ body h2{
 body h3{
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
 }
 body h4{
     color: white;
@@ -1278,6 +1278,9 @@ a.bg-danger:hover {
   padding-bottom: 9px;
   margin: 40px 0 20px;
   border-bottom: 1px solid #eee;
+}
+ul{
+    text-decoration-color: snow;
 }
 ul,
 ol {
@@ -7422,4 +7425,33 @@ margin-top:10%;
 #logo {
     width: 200px;
     height: 200px;
+}
+
+#float {
+     float: right
+}
+/*Voor de tabel in diensten pagina*/
+table {
+    width: 80%;
+    margin-left: 10%;
+}
+table, th, td {
+    border: 3px solid grey;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+th, td {
+    padding: 5px;
+    text-align: center;
+    color: black;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th {
+    background-color: grey;
+    color: white;
 }

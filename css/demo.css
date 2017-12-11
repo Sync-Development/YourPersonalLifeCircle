@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'BebasNeueRegular';
+    font-family: 'Montserrat', sans-serif';
     src: url('fonts/BebasNeue-webfont.eot');
     src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/BebasNeue-webfont.woff') format('woff'),
@@ -34,9 +34,17 @@ address,caption,cite,code,dfn,th,var {
 	font-style:normal;
 	font-weight:normal;
 }
-ol,ul {
-	list-style:none;
+
+ul{
+	list-style-type: disc;
 }
+
+li{
+    color: snow;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
 caption,th {
 	text-align:left;
 }

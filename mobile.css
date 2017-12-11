@@ -377,4 +377,10 @@ margin-left: 6%;
     height: 120px;
     margin-left: 31%;
 }
+/* Text voor de tabel in diensten pagina*/
+table, th, td {
+    border: 3px solid grey;
+    border-collapse: collapse;
+    font-size: 15px;
+}
 
