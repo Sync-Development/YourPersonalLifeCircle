@@ -301,10 +301,11 @@ margin-left: 6%;
   margin-left: auto;
 
 }
+
 .row {
     margin-right: -4px;
     margin-left: -2px;
-    margin-top: 6%;
+    margin-top: 20%;
 }
 
 
@@ -382,5 +383,9 @@ table, th, td {
     border: 3px solid grey;
     border-collapse: collapse;
     font-size: 15px;
+}
+
+.gap-right {
+  margin-right: 100px; 
 }
 

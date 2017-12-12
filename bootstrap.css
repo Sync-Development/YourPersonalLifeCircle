@@ -931,6 +931,12 @@ body h2{
     font-size: 30px;
 }
 
+body h22{
+    color: snow;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
 body h3{
     color: white;
     font-family: 'Montserrat', sans-serif;
@@ -1139,7 +1145,6 @@ h2,
 h22,
 .h22 {
   font-size: 30px;
-        margin-top: 3%;
 }
 
 h3,
@@ -1486,7 +1491,7 @@ pre code {
 .row {
   margin-right: 0px;
   margin-left: 0px;
-  margin-top: 29.5%;
+  margin-top: 12%;
 }
 
 .row4 {
@@ -2435,7 +2440,7 @@ output {
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #555;
+  color: snow;
   background-color: #504645;
   background-image: none;
   border: 1px solid #504645;
@@ -4188,7 +4193,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #cb8d3d;
+  color: snow;
 }
  
 
@@ -4198,7 +4203,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #68a6da;
+  color: #e4a12b;
  
 }
 .navbar-default .navbar-nav > .active > a,
@@ -7454,4 +7459,8 @@ table#t01 tr:nth-child(odd) {
 table#t01 th {
     background-color: grey;
     color: white;
+}
+
+#banner-text{
+    margin-top: 14%;
 }
