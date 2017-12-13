@@ -962,7 +962,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #2a6496;
+  color: #65a03e;
   text-decoration: underline;
 }
 a:focus {
@@ -3026,8 +3026,8 @@ fieldset[disabled] .btn-info.active {
 .btn-warning.active,
 .open > .dropdown-toggle.btn-warning {
   color: #fff;
-  background-color: #ec971f;
-  border-color: #d58512;
+  background-color: #65a03e;
+  border-color: #65a03e;
 }
 .btn-warning:active,
 .btn-warning.active,
@@ -3049,8 +3049,8 @@ fieldset[disabled] .btn-warning:active,
 .btn-warning.disabled.active,
 .btn-warning[disabled].active,
 fieldset[disabled] .btn-warning.active {
-  background-color: #f0ad4e;
-  border-color: #eea236;
+  background-color: #65a03e;
+  border-color: #65a03e;
 }
 .btn-warning .badge {
   color: #f0ad4e;
@@ -3783,7 +3783,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: #fff;
-  background-color: #428bca;
+  background-color: #65ade9;
 }
 .nav-stacked > li {
   float: none;
@@ -4203,7 +4203,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #e4a12b;
+  color: #65a03e;
  
 }
 .navbar-default .navbar-nav > .active > a,
@@ -6728,7 +6728,7 @@ hr {
 
 .active2 {
   transition: 0.4s ease;
-  color: #124b8c;
+  color: #65a03e;
   font-size: 20px;
   text-decoration: none;
   border-bottom: 4px Solid transparent;
