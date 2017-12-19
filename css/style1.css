@@ -57,7 +57,7 @@
     line-height: 200px; 
 }
 .cb-slideshow li:nth-child(1) span { 
-    background-image: url(../images/1.jpg); 
+    background-image: url(../images/1%20.jpg); 
 }
 .cb-slideshow li:nth-child(2) span { 
     background-image: url(../images/1285624_49e2%5B1%5D.jpg);
@@ -68,7 +68,7 @@
     animation-delay: 6s; 
 }
 .cb-slideshow li:nth-child(3) span { 
-    background-image: url(../images/fitness-tips%5B1%5D.jpg);
+    background-image: url(../images/fdiuhg.jpg);
     -webkit-animation-delay: 12s;
     -moz-animation-delay: 12s;
     -o-animation-delay: 12s;
