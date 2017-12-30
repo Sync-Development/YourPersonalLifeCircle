@@ -17,7 +17,7 @@
 
 .scrollup{
     width: 80%;
-    margin-right: 21%;
+    margin-right: -24%;
     margin-bottom: -35px;
 }
 #return-to-top {
@@ -316,6 +316,13 @@ margin-left: 6%;
     width: 100%;
 }
 
+.socialbuttons2{ 
+    z-index: 3;
+       margin-top: -7.6%;
+    margin-left: 46.5%;
+display:none;
+}
+
 .nav > li.facebook > a:hover {
     background: #3b5998 !important;
 }
@@ -389,3 +396,8 @@ table, th, td {
   margin-right: 100px; 
 }
 
+body h22{
+    color: snow;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}

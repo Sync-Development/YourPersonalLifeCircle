@@ -975,8 +975,8 @@ figure {
 }
 
 .logopositie {
-    margin-left: -136%;
-    margin-top: -48px;
+        margin-left: -280px;
+    margin-top: -47px;
     float: left;
 }
 
@@ -1491,7 +1491,7 @@ pre code {
 .row {
   margin-right: 0px;
   margin-left: 0px;
-  margin-top: 12%;
+  margin-top: 10.9%;
 }
 
 .row4 {
@@ -7469,5 +7469,4 @@ table#t01 th {
 
 #banner-text{
     margin-top: 14%;
-    background-color: rgba(48, 58, 51, 0.5); 
 }
