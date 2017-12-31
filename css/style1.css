@@ -59,6 +59,9 @@
 .cb-slideshow li:nth-child(1) span { 
     background-image: url(../images/1%20.jpg); 
 }
+
+
+
 .cb-slideshow li:nth-child(2) span { 
     background-image: url(../images/1285624_49e2%5B1%5D.jpg);
     -webkit-animation-delay: 6s;
