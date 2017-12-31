@@ -111,7 +111,7 @@ carousel.less:193
 
 .bg-img1 {
     /* The image used */
-    background-image: url("../YourPersonalLifeCircle/images/5.jpg");
+    background-image: url("../images/5.jpg");
 
     /* Set a specific height */
     min-height: 350px; 
