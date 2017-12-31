@@ -4528,7 +4528,7 @@ a.label:focus {
 }
 .label-warning[href]:hover,
 .label-warning[href]:focus {
-  background-color: #ec971f;
+  background-color: #65a03e;
 }
 .label-danger {
   background-color: #d9534f;
@@ -6667,14 +6667,13 @@ hr {
 /*Dit zorgt ervoor dat het menu een animatie krijgt wanneer je met je muis erover heen gaat */
 
 .active2 {
-  transition: 0.4s ease;
-  color: #124b8c;
-  font-size: 20px;
-  text-decoration: none;
-  border-bottom: 4px Solid transparent;
-  padding: 20px 0;
-  margin: 0 20px;
-
+    transition: 0.4s ease;
+    color: #65a03e;
+    font-size: 20px;
+    text-decoration: none;
+    border-bottom: 4px Solid transparent;
+    padding: 20px 0;
+    margin: 0 20px;
 }
 
 
@@ -7406,10 +7405,14 @@ path:hover {
 }
 
 .logopositie {
-    margin-left: -40%;
-    margin-top: -20%;
+    margin-left: -103%;
+    margin-top: -38%;
 }
 
 #wrapper{
     width: 90%;
 }
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #65a03e;
