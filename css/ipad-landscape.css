@@ -7441,12 +7441,7 @@ style1.css:2
     margin-top: -31px;
     float: left;
 }
-.logopositie2 {
-   
-    margin-left: 0%;
-    margin-top: -31px;
-    float: left;
-}
+
 
 .scrollup{
     width: 25%;
@@ -7499,7 +7494,18 @@ style1.css:2
     padding-top: 15px;
     padding-bottom: 15px;
   }
-  .navbar-nav.navbar-right:last-child {
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { .navbar-nav.navbar-right:last-child {
     margin-right: -150px;
   }
+    .logopositie2 {
+   
+    margin-left: 0%;
+    margin-top: -31px;
+    float: left;
+} 
+    
 }
