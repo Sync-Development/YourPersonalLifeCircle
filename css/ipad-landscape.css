@@ -7405,8 +7405,8 @@ path:hover {
 }
 
 .logopositie {
-    margin-left: -103%;
-    margin-top: -38%;
+    margin-left: -60%;
+    margin-top: -28%;
 }
 
 #wrapper{
@@ -7429,3 +7429,12 @@ style1.css:2
     left: 0px;
     z-index: 0;
 }
+
+
+.socialbuttons2{ 
+    z-index: 3;
+       margin-top: -7.6%;
+    margin-left: 46.5%;
+    display: none;
+}
+
