@@ -3993,7 +3993,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     padding-bottom: 15px;
   }
   .navbar-nav.navbar-right:last-child {
-    margin-right: -139px;
+    margin-right: -150px;
   }
 }
 @media (min-width: 768px) {
@@ -7404,10 +7404,6 @@ path:hover {
     height: 180px;
 }
 
-.logopositie {
-    margin-left: -60%;
-    margin-top: -28%;
-}
 
 #wrapper{
     width: 90%;
@@ -7438,3 +7434,72 @@ style1.css:2
     display: none;
 }
 
+
+.logopositie {
+   
+    margin-left: -56%;
+    margin-top: -31px;
+    float: left;
+}
+.logopositie2 {
+   
+    margin-left: 0%;
+    margin-top: -31px;
+    float: left;
+}
+
+.scrollup{
+    width: 25%;
+    float:right;
+}
+
+#return-to-top {
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+   
+    width: 15%;
+    height: 35px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    float: left;
+    margin: 0;
+  }
+  .navbar-nav > li {
+    float: left;
+  }
+  .navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .navbar-nav.navbar-right:last-child {
+    margin-right: -150px;
+  }
+}
