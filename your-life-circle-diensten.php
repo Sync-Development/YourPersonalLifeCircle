@@ -46,6 +46,7 @@
 <div class="container-fluid">
 <div class="navbar-header">
 
+    
 <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
 <div id="nav-icon3">
   <span></span>
@@ -55,14 +56,12 @@
 </div>
 </button>
 <div class="logopositie">
-<div class="logopositie2">
-   <a href="index.html"><img id="logo" src="images/YourLifeCircle.svg"></a>
-</div>
- </div>   
-<div class="logopositie-mobiel">
-   <a href="index.html"><img id="logo" src="images/YourLifeCircle.svg"></a>
+    <a href="index.php"><img id="logo" src="images/YourLifeCircle.svg"></a>
 </div>
     
+<div class="logopositie-mobiel">
+   <a href="index.php"><img id="logo" src="images/YourLifeCircle.svg"></a>
+</div>
 <script>
 $(document).ready(function(){
 	$('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
@@ -78,16 +77,16 @@ $(document).ready(function(){
 <div class="collapse navbar-collapse navbar-responsive-collapse">
 <ul class="nav navbar-nav navbar-right">
 <li>
-<a  class="active2" href="index.html"><strong>Home</strong></a>
+<a  class="active2" href="index.php"><strong>Home</strong></a>
 </li>
 <li class="dropdown">
 
 <li>
-<a  class="active2" href="your-life-circle-diensten.html"><strong>Diensten</strong></a>
+<a  class="active2" href="your-life-circle-diensten.php"><strong>Diensten</strong></a>
 </li>
     
 <li>
-<a  class="active2" href="your-life-circle-contact.html"><strong>Contact</strong></a>
+<a  class="active2" href="your-life-circle-contact.php"><strong>Contact</strong></a>
  </li>
 </ul>
    <!--De class zort ervoor dat dit menu wordt gelinked met de animatie in de css-->

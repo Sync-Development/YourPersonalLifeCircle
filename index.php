@@ -63,11 +63,11 @@
 </div>
 </button>
 <div class="logopositie">
-    <a href="index.html"><img id="logo" src="images/YourLifeCircle.svg"></a>
+    <a href="index.php"><img id="logo" src="images/YourLifeCircle.svg"></a>
 </div>
     
 <div class="logopositie-mobiel">
-   <a href="index.html"><img id="logo" src="images/YourLifeCircle.svg"></a>
+   <a href="index.php"><img id="logo" src="images/YourLifeCircle.svg"></a>
 </div>
     
 <script>
@@ -86,16 +86,16 @@ $(document).ready(function(){
 <ul class="nav navbar-nav navbar-right">
     
 <li>
-<a  class="active2" href="index.html"><strong>Home</strong></a>
+<a  class="active2" href="index.php"><strong>Home</strong></a>
 </li>
 <li class="dropdown">
 
 <li>
-<a  class="active2" href="your-life-circle-diensten.html"><strong>Diensten</strong></a>
+<a  class="active2" href="your-life-circle-diensten.php"><strong>Diensten</strong></a>
 </li>
     
 <li>
-<a  class="active2" href="your-life-circle-contact.html"><strong>Contact</strong></a>
+<a  class="active2" href="your-life-circle-contact.php"><strong>Contact</strong></a>
  </li>
 </ul>
    <!--De class zort ervoor dat dit menu wordt gelinked met de animatie in de css-->
@@ -119,7 +119,7 @@ $(document).ready(function(){
 <div class="row">
 <div class="col-md-4">
 <div class="item"><i class="pe-7s-phone"></i>
-<a href="your-life-circle-diensten.html#fysiek-2">
+<a href="your-life-circle-diensten.php#fysiek-2">
     <img class="positie" src="images/YourPersonalLifeCircle-Bodegraven-fysieke-veerkracht.svg"></a>
 <h4 style="color:#c6c6c6;"><strong>Fysieke Veerkracht: (Personal Training)</h4></strong>
 
@@ -128,7 +128,7 @@ $(document).ready(function(){
 </div>
 <div class="col-md-4">
 <div class="item"><i class="pe-7s-like"></i>
-<a href="your-life-circle-diensten.html#voeding">
+<a href="your-life-circle-diensten.php#voeding">
     <img class="positie" src="images/YourPersonalLifeCircle-Bodegraven-voedings-balans.svg"></a>
 <h4 style="color:#65a13e;"><strong>Voedingsbalans: (Private Coaching) </h4></strong>
 <p>Je gaat via onze begeleiding op zoek naar de juiste balans in je voeding patroon. 
@@ -137,7 +137,7 @@ Via duidelijke contactmomenten en advies, wordt je geholpen tot het gewenste res
 </div>
 <div class="col-md-4">
 <div class="item"><i class="pe-7s-browser"></i>
-<a href="your-life-circle-diensten.html#Life">
+<a href="your-life-circle-diensten.php#Life">
     <img class="positie" src="images/YourPersonalLifeCircle-Bodegraven-mentale-rust.svg"></a>
 <h4 style="color:#65aeea;"><strong>Life Coaching: (Private Coaching)</h4></strong>
 <p>Hier ligt de nadruk op jouw gedachten en voornamelijk ook jouw doelstellingen. 

@@ -975,8 +975,8 @@ figure {
 }
 
 .logopositie {
-        margin-left: -102%;
-    margin-top: -47px;
+        margin-left: -132%;
+    margin-top: -10px;
     float: left;
 }
 
@@ -7436,6 +7436,16 @@ margin-top:10%;
 #logo {
     width: 200px;
     height: 200px;
+    margin-left: 80%;
+    margin-top: -19px;
+    float: left;
+}
+
+#logo2 {
+    width: 200px;
+    height: 200px;
+    margin-left: 94%;
+    margin-top: 10%;
 }
 
 #float {

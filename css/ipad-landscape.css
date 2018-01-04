@@ -7402,6 +7402,8 @@ path:hover {
 
 #logo {
     height: 180px;
+    margin-left: -3%;
+    margin-top: -6%;
 }
 
 
@@ -7499,13 +7501,8 @@ style1.css:2
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px)  { .navbar-nav.navbar-right:last-child {
-    margin-right: -150px;
+    margin-right: -100px;
   }
-    .logopositie2 {
-   
-    margin-left: 0%;
-    margin-top: -31px;
-    float: left;
-} 
+  
     
 }
