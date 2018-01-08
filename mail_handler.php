@@ -18,6 +18,6 @@ else{
     $msg = "Something went wrong!";
 }
 
-header("Location: your_life_circle_contact.php?$msg");
+header("Location: your-life-circle-contact.php?$msg");
 
 } ?>

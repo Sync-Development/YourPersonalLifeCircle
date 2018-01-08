@@ -2822,12 +2822,14 @@ select[multiple].input-lg {
   border: 1px solid transparent;
   border-radius: 4px;
 }
-.btn:focus,
-.btn:active:focus,
-.btn.active:focus {
-  outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+  color: blue;
+  background-color: #e6e6e6;
+  border-color: #adadad;
 }
 .btn:hover,
 .btn:focus {
@@ -7399,7 +7401,7 @@ margin-top:10%;
 }
 
 .socialbuttons{ 
-   margin-top:-10%;
+   margin-bottom:-3%;
    margin-right: 2.5%;
 }
 
@@ -7479,4 +7481,7 @@ table#t01 th {
 
 #banner-text{
     margin-top: 14%;
+}
+.send {
+    margin-right: 20%;
 }
