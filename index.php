@@ -13,7 +13,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-        <title>Fullscreen Background Image Slideshow with CSS3</title>
+        <title>Yourlifecircle</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <meta name="description" content="Fullscreen Background Image Slideshow with CSS3 - A Css-only fullscreen background image slideshow" />
         <meta name="keywords" content="css3, css-only, fullscreen, background, slideshow, images, content" />
@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<link rel="shortcut icon" href="images/YourlifeCircle.ico" type="image/x-icon">
+<link rel="shortcut icon" href="images/YourlifeCircle-favicon.ico" type="image/x-icon">
 <link rel="stylesheet" type="text/css" href="landscape.css">
 <link rel="stylesheet" type="text/css" href="bootstrap.css">
 <link rel="stylesheet"  media="(max-width: 690px) and (orientation: portrait)" href="mobile.css">
@@ -30,7 +30,6 @@
 
 <link rel="stylesheet" media="(max-width: 1370px) and (orientation: landscape)" href="css/ipad-landscape.css">
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
-        <link rel="shortcut icon" href="../favicon.ico"> 
         <link rel="stylesheet" type="text/css" href="css/demo.css" />
         <link rel="stylesheet" type="text/css" href="css/style1.css" />
 		<script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
