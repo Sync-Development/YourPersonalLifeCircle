@@ -8,13 +8,15 @@
 }
 
 #logo {
-    height: 100px;
+    height: 180px;
     width: 90px;
+    margin-top: 29%;
+    margin-left: -3%;
 }
 
 .navbar-default {
-    background-color: #f8f8f8;
-    border-color: #e7e7e7;
+    background-color: transparent;
+    border-color: transparent;
 }
 
 .scrollup{
@@ -155,28 +157,12 @@ footer { background-color:#4431a4; max-height:320px; font-family: 'Open Sans', s
      background-color:#f63e28;
  }
 
-.active2 {
-  transition: 0.4s ease;
-  color: navy;
-  font-size: 20px;
-  text-decoration: none;
-  border-bottom: 4px Solid white;
-  padding: 20px 0;
-  margin: 0 20px;
-
-}
-
-.active2:hover {
-border-bottom: 4px solid #428bca;
-  padding: 4px 0; 
-    
-}
-
-.navbar-static-top {
+.navbar-statc-top{
     z-index: 1000;
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
-}
+    margin-top: 10px;
+} 
 
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -188,16 +174,15 @@ body {
 
 .navbar-toggle {
     position: relative;
-    float: left;
-    padding: 9px 14px;
-    margin-top: 8%;
-    margin-left: 5%;
-    margin-bottom: -7%;
+    float: right;
+    padding: 9px 10px;
+    margin-top: -33;
+    margin-right: 15px;
+    margin-bottom: 8px;
     background-color: transparent;
     background-image: none;
-    border: 1px solid transparent;
+    border: 0px solid transparent;
     border-radius: 4px;
-    margin-top:-19px;
 }
 
 .navbar {

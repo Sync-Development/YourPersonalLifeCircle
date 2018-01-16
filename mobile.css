@@ -125,26 +125,6 @@ footer { background-color:#4431a4; max-height:320px; font-family: 'Open Sans', s
  .bottom_ul li:after { content:"/"; color:#FFF; margin-right:8px; margin-left:8px;}
  .bottom_ul li a { color:#FFF;  font-size:12px; display: none;}
 
-
- 
-
-.active2 {
-  transition: 0.4s ease;
-  color: #124b8c;
-  font-size: 20px;
-  text-decoration: none;
-  border-bottom: 4px Solid white;
-  padding: 20px 0;
-  margin: 0 20px;
-
-}
-
-.active2:hover {
-border-bottom: 4px solid #68a6da;
-  padding: 4px 0; 
-    
-}
-
 .navbar-static-top {
     z-index: 1000;
     width: 100%;
