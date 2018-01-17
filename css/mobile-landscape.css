@@ -286,3 +286,19 @@ table, th, td {
     background-size: cover;
  
 }
+
+#formemail {
+    margin-right: 0%;
+    width: 100%;
+    margin-top: 0px;
+}
+
+#formnaam {
+    width: 100%;
+}
+
+.row2 {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: -5.6%;
+}

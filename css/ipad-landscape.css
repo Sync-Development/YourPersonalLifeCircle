@@ -7247,10 +7247,21 @@ footer { background-color:#124b8c; max-height:320px; font-family: 'Open Sans', s
     .panel-success {
     border-color: #74acca;
 }
+
+#formemail {
+    margin-right: 0%;
+    width: 100%;
+    margin-top: 0px;
+}
+
+#formnaam {
+    width: 100%;
+}
+
 .row2 {
-    margin-right: -15px;
-    margin-left: -15px;
-    margin-left: 8%;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: -5.6%;
 }
 
 .likeknop{
@@ -7285,19 +7296,6 @@ textarea:focus, input:focus {
     color: #fff;
 }
 
-#formnaam {
-    float: left;
-    width: 100%;    
-   
-}
-
-#formemail {
-    
-       float: right;
-    margin-right: 0%;
-    width: 100%;
-    margin-top: 0px;
-}
 
 #formsend {
     
