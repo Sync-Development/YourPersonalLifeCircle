@@ -1,0 +1,51 @@
+(AAnpassingen)
+
+Logo niet op ieder pagina het zelfde gepositioneerd. Logo verspringt als je 
+verschillende pagina's linkt.
+
+Social button's goed zichtbaar in de footer.
+
+Button klikbaar op de hompage voor de vakken tekst. (Gehele vak klikbaar).
+
+Ruimte onder de tekstvakken homepage.
+
+Bevestiging na het versturen van bericht via contactform.
+
+Nieuwe koppeling instagram.
+
+Achtergrond RGB homepage niet goed leesbaar.
+
+Contactpage staat nog personal. (Gefixed)
+
+Adres van Jawi bij contactpage. 
+
+(Komt nog)
+
+Revieuw Facebook doorlink.(homepage) 
+
+           
+
+(Nieuw Coachpage)  Home - "Over mij" - Diensten - Contact
+
+Kleur achtergrond: 
+Positie: 
+
+Personelijke page 
+Beschrijving van jezelf.
+
+Foto
+
+Pop-up met doorlink naar contactform (coachpagina)
+
+Contact button met contact venster. (Dienstpage op iedere dienst)
+
+
+(Nieuw eventueel)
+
+In overleg met marketingspecialist. 
+
+
+
+
+
+
