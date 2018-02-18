@@ -117,27 +117,30 @@ $(document).ready(function(){
 <div class="item"><i class="pe-7s-phone"></i>
 <a href="your-life-circle-diensten.php#fysiek-2">
     <img class="positie" src="images/YourPersonalLifeCircle-Bodegraven-fysieke-veerkracht.svg"></a>
-<h4 style="color:#c6c6c6;"><strong>Fysieke Veerkracht: (Personal Training)</h4></strong>
+<a href="your-life-circle-diensten.php#fysiek-2"><h4 style="color:#c6c6c6;"><strong>Fysieke Veerkracht: (Personal Training)</h4></strong>
 
 <p>In dit Traject ga je werken aan een hoger energieniveau en een functioneler lichaam. <br><br><br></p>
+</a>
 </div>
 </div>
 <div class="col-md-4">
 <div class="item"><i class="pe-7s-like"></i>
 <a href="your-life-circle-diensten.php#voeding">
     <img class="positie" src="images/YourPersonalLifeCircle-Bodegraven-voedings-balans.svg"></a>
-<h4 style="color:#65a13e;"><strong>Voedingsbalans: (Private Coaching) </h4></strong>
+<a href="your-life-circle-diensten.php#voeding"><h4 style="color:#65a13e;"><strong>Voedingsbalans: (Private Coaching) </h4></strong>
 <p>Je gaat via onze begeleiding op zoek naar de juiste balans in je voeding patroon. 
 Via duidelijke contactmomenten en advies, wordt je geholpen tot het gewenste resultaat. </p>
+</a>
 </div>
 </div>
 <div class="col-md-4">
 <div class="item"><i class="pe-7s-browser"></i>
 <a href="your-life-circle-diensten.php#Life">
     <img class="positie" src="images/YourPersonalLifeCircle-Bodegraven-mentale-rust.svg"></a>
-<h4 style="color:#65aeea;"><strong>Life Coaching: (Private Coaching)</h4></strong>
+<a href="your-life-circle-diensten.php#Life"><h4 style="color:#65aeea;"><strong>Life Coaching: (Private Coaching)</h4></strong>
 <p>Hier ligt de nadruk op jouw gedachten en voornamelijk ook jouw doelstellingen. 
 Je gaat leren duidelijkheid en helderheid te creëren met behulp van private coaching sessie’s. </p>
+    </a>
 </div>
 </div>
 </div>
