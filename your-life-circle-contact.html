@@ -195,9 +195,24 @@ if(isset($_GET['msg'])) echo $_GET['msg'];
 </div>
        <div class="send">
         <div class="col-dm-4 form-group">
-       <button class="btn btn-default pull-right" id="submit" name="submit" type="submit">Send</button>
+       <button class="btn btn-default pull-right" data-toggle="modal" id="submit" name="submit" data-target="#bedankt" type="submit">Send</button>
         </div> 
-           </div>
+           
+         </div>
+       
+        <div class="modal fade" id="bedankt" tabindex="-1" role="dialog" aria-labelledby="modallabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-body">
+                <h22 style="color:black;">Bedankt voor uw bericht!</h22>
+            </div>
+          </div>
+        </div>
+       </div>
+        
+          
+       
+        
        <br>
 
 <div class="socialbuttons">
